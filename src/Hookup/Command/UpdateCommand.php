@@ -118,8 +118,9 @@ class UpdateCommand extends Command
 
         $file = $this->engine->render('config', ['servers' => $config['servers']]);
 
-        echo $file;
-        return 0;
+        $output->writeln(
+            sprintf('<comment>~/.ssh/config has been updated</comment>')
+        );
     }
 
 }

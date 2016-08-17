@@ -9,6 +9,9 @@ local & remote yaml files.
 `.hookup.yml` files can be placed within web/infrastructure projects locally or stored
 remotely via github repositories.
 
+![alt text](example.gif "Example")
+
+
 # Example
 ```
 // ~/.hookup.yml
